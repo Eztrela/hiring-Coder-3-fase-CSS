@@ -2,6 +2,8 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #F2A516;
 }
 
 ul{
@@ -14,4 +16,53 @@ a{
 
 body{
     background: url('./background.jpg') no-repeat center center/cover fixed;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+header div img{
+    width: 100px;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    padding: 5px;
+}
+
+.container .name h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.container .name h5{
+    font-size: 30px;
+    text-align: center;
+}
+
+#about p{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form input{
+    width: 50%;
+}
+
+.form button{
+    width: 15%;
 }
